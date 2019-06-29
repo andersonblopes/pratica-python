@@ -28,3 +28,27 @@ print(parte_da_string)
 
 parte_da_string = concatenar[9:]
 print(parte_da_string)
+
+#Métodos do Objeto String
+
+print(concatenar.lower())
+print(concatenar.upper())
+print(concatenar.capitalize())
+
+concatenar = nome + " " + sobrenome + "\n "
+print(concatenar)
+print(concatenar.strip()) #Remove caracter especial: por ex:  '\n'
+
+#Transforma string em lista
+frase = "O rato roeu a roupa do rei de Roma"
+lista = frase.split("r")
+print(lista)
+
+#Busca em uma String
+busca = frase.find("rei")
+print(busca)
+print(frase[busca:])
+
+#Substituindo partes da String
+frase = frase.replace("o rei","a rainha")
+print(frase)
