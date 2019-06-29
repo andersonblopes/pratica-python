@@ -1,5 +1,6 @@
 # Define encoding
 # -*- coding: utf-8 -*-
+
 print("Olá variáveis!")
 varMsg = "Olá variáveis!"
 print(varMsg)
