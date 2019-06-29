@@ -32,3 +32,23 @@ for i in lista2:
 print("- Lista com tipos diferentes -")
 for i in lista3:
     print(i)
+
+
+print("==================================")
+print("Interador RANGE")
+print("==================================")
+
+#Delimitando fim
+print("- Delimitando fim -")
+for i in range(5):
+    print(i)
+
+#Delimitando intervalo
+print("- Delimitando intervalo -")
+for i in range(20,25):
+    print(i)
+
+#Delimitando incremento
+print("- Delimitando incremento -")
+for i in range(20, 30, 5):
+    print(i)
