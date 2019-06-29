@@ -1,4 +1,4 @@
-# efine encoding
+# Define encoding
 # -*- coding: utf-8 -*-
 
 #Isto eh um comentário
