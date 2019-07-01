@@ -1,4 +1,5 @@
 # 4 - Escreva um programa que ordene uma lista numérica com três elementos.  
+# Implementando algoritmo select sort
 
 lista = [8,12,-34,45,-987,9087,6,5]
 
