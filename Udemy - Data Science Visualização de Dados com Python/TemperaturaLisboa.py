@@ -18,3 +18,6 @@ plt.plot(horas, temperatura)
 
 #Mostra gráfico
 plt.show()
+
+#Salva gráfico como imagem
+plt.savefig("TemperaturaLisboa.png")

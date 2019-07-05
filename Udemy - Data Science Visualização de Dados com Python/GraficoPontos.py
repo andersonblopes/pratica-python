@@ -18,5 +18,8 @@ plt.scatter(horas, temperatura, label = "Variação", color="r", marker="*", s=2
 plt.plot(horas, temperatura, color="g", linestyle=":")
 plt.legend()
 
+#Salva gráfico como imagem
+plt.savefig("graficoPontos.png")
+
 #Mostra gráfico
 plt.show()

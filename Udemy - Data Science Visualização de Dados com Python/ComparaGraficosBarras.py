@@ -23,3 +23,6 @@ plt.legend()
 
 #Mostra gráfico
 plt.show()
+
+#Salva gráfico como imagem
+plt.savefig("ComparaGraficosBarras.png")

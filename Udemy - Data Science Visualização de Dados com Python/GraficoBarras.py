@@ -20,3 +20,6 @@ plt.bar(marcas, quantidade)
 
 #Mostra gráfico
 plt.show()
+
+#Salva gráfico como imagem
+plt.savefig("GraficoBarras.png")

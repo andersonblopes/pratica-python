@@ -8,3 +8,6 @@ y = [2, 3]
 plt.plot(x, y)
 
 plt.show()
+
+#Salva gráfico como imagem
+plt.savefig("GraficoDeLinhas.png")
