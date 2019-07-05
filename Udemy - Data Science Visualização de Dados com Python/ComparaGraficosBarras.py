@@ -21,8 +21,10 @@ plt.bar(marcas, matriz, label = "Matriz")
 plt.bar(marcas, filial, label = "Filial")
 plt.legend()
 
+#Salva gráfico como imagem
+plt.savefig("ComparaGraficosBarras.pdf")
+
 #Mostra gráfico
 plt.show()
 
-#Salva gráfico como imagem
-plt.savefig("ComparaGraficosBarras.png")
+

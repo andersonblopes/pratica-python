@@ -16,8 +16,8 @@ plt.ylabel("Temperatura")
 #Desenha gráfico
 plt.plot(horas, temperatura)
 
+#Salva gráfico como pdf
+plt.savefig("TemperaturaLisboa.pdf")
+
 #Mostra gráfico
 plt.show()
-
-#Salva gráfico como imagem
-plt.savefig("TemperaturaLisboa.png")

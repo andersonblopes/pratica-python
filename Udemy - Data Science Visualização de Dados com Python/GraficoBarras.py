@@ -18,8 +18,8 @@ plt.ylabel(eixoY)
 #Desenha gráfico de barras
 plt.bar(marcas, quantidade)
 
+#Salva gráfico como imagem de alta resolução
+plt.savefig("GraficoBarras.png",dpi=300)
+
 #Mostra gráfico
 plt.show()
-
-#Salva gráfico como imagem
-plt.savefig("GraficoBarras.png")

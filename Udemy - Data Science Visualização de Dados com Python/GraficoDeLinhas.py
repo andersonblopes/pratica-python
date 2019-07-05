@@ -7,7 +7,8 @@ x = [1, 2]
 y = [2, 3]
 plt.plot(x, y)
 
-plt.show()
-
 #Salva gráfico como imagem
 plt.savefig("GraficoDeLinhas.png")
+
+#Mostra o gráfico
+plt.show()
