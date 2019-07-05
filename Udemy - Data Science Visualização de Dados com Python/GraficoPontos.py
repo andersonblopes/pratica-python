@@ -14,8 +14,8 @@ plt.xlabel("Horas")
 plt.ylabel("Temperatura")
 
 #Desenha gráfico
-plt.scatter(horas, temperatura, label = "Variação", color="r")
-plt.plot(horas, temperatura)
+plt.scatter(horas, temperatura, label = "Variação", color="r", marker="*", s=200)
+plt.plot(horas, temperatura, color="g", linestyle=":")
 plt.legend()
 
 #Mostra gráfico
